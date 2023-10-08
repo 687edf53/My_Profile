@@ -11,7 +11,7 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/about" Component={About} />
-          <Route path="/" index="ture" Component={Home} />
+          <Route path="/My_Profile" Component={Home} />
         </Routes>
       </Router>
     </>
