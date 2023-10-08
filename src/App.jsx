@@ -11,7 +11,7 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/about" Component={About} />
-          <Route path="/" Component={Home} />
+          <Route path="/" index Component={Home} />
         </Routes>
       </Router>
     </>
