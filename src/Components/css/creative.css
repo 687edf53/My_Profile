@@ -1,0 +1,70 @@
+.creative {
+  width: 100%;
+  height: calc(100vh - 72.34px);
+  /* background: linear-gradient(to left,#A200C3, #10002D); */
+  background: linear-gradient(to left,#161515, #383838);
+  align-items: center;
+  gap: 2rem;
+  overflow: auto;
+}
+
+.pe-auto {
+  cursor: pointer;
+}
+
+.hover:hover {
+  color: #fff !important;
+}
+
+.creative :is(.skills, .github,.test) {
+  background: rgba(0, 0, 0, 0.1);
+  /* width: 300px;
+  min-height: 500px !important; */
+}
+
+.progress {
+  border-radius: 4px !important;
+}
+
+.bg-bootstrap {
+  background-color: #6E2BF4 !important;
+}
+
+.address {
+  margin-top: -10px
+}
+
+.links-title {
+  inset: 48px !important;
+}
+
+.progress {
+  border-color: transparent;
+}
+
+/* github */
+
+.github {
+  height: 492.13px;
+}
+
+
+.github i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.links-address {
+  top: 48px !important;
+  left: 48px !important;
+}
+
+@media (width <= 760px) {
+  .creative {
+    height: fit-content;
+    padding-bottom: 50px;
+  }
+  .skills {
+    margin-top: 20px;
+  }
+}
