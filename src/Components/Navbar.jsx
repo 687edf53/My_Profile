@@ -51,7 +51,7 @@ export default function Navbar() {
           >
             <ul className="navbar-nav d-flex align-items-center">
               <li className="nav-item">
-                <NavLink className="nav-link active" to="/">
+                <NavLink className="nav-link" to="/">
                   {langValid ? translate.en.home : translate.ar.home}
                 </NavLink>
               </li>
