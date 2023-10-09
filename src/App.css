@@ -17,6 +17,14 @@ nav ul li {
   font-size: 18px;
 }
 
+.lang {
+  color: #93979B;
+}
+
+.lang:hover {
+  color: #fff !important;
+}
+
 img {
   max-width: 50px;
 }
