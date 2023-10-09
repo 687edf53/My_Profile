@@ -6,24 +6,10 @@ import Home from "./Components/Home";
 import langValid from "./assets/Context";
 
 import "./App.css";
+import {lang, setLang, translate} from './assets/Data/data'
 
 export default function App() {
-  const [lang, setLang] = useState(true);
 
-  const [translate] = useState({
-    ar: {
-      home: "الصفحة الرئيسية",
-      lang: "اللغة",
-      about: "حول",
-      name: "687edf53 | محمد حسام",
-    },
-    en: {
-      home: "Home",
-      lang: "Lang",
-      about: "About",
-      name: "Mohammed Hossam | 687edf53",
-    },
-  });
 
   const [obj] = useState({
     lang,
