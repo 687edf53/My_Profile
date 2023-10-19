@@ -3,6 +3,7 @@
   -webkit-text-stroke: 1px #793FDF;
   color: #793FDF;
   text-shadow: 0 0 5px #793FDF;
+  letter-spacing: 1px;
 }
 
 .home h2 {

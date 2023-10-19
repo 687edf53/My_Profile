@@ -6,8 +6,8 @@ export default function Navbar() {
   
   return (
     <>
-      <nav className="navbar bg-warning navbar-dark navbar-expand-lg">
-        <div className="container">
+      <nav className="navbar navbar-dark navbar-expand-lg" style={{backgroundColor: '#FF5057'}}>
+        <div className="container justify-content-evenly">
           <a className="navbar-brand" href="#">
             <img src={light_logo} alt="logo" />
           </a>
