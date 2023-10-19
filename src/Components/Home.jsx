@@ -27,8 +27,10 @@ const Home = () => {
         <p>I am <span className="stroke">Mohammed Hossam</span></p>
          <span style={{color: '#F6635C', textShadow: '0 0 5px #F6635C'}}>Frontend Developer</span></h2>
 
-        <div className="languages">
-
+        <div className="languages mt-5">
+          <h1>this section
+            <br />
+             Coming soon ...</h1>
         </div>
       </div>
         <div className="links">
